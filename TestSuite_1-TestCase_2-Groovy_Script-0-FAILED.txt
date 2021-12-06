@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 288
+Size: 0
+Timestamp: Mon Dec 06 16:32:05 CET 2021
+TestStep: Groovy Script
+Error:java.io.FileNotFoundException: C:\Users\formation\Documents\EQL\TPGroovy\testprops.txt (Le chemin d’accès spécifié est introuvable)
+
+----------------- Messages ------------------------------
+java.io.FileNotFoundException: C:\Users\formation\Documents\EQL\TPGroovy\testprops.txt (Le chemin d’accès spécifié est introuvable)
+error at line: 3

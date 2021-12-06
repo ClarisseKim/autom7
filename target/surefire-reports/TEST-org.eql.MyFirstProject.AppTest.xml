@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.eql.MyFirstProject.AppTest" time="8.022" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\target\test-classes;C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\target\classes;C:\Users\formation\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\formation\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\bin\soapui-5.4.0.jar;C:\Users\formation\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\rsyntaxtextarea-2.5.0.jar;C:\Users\formation\.m2\repository\commons-cli\commons-cli\1.5.0\commons-cli-1.5.0.jar;C:\Users\formation\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\formation\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\formation\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\proxy-vole-20131209.jar;C:\Users\formation\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\formation\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\formation\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\groovy-all-2.4.4.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\reflections-0.9.9-RC1.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-log4j12\2.0.0-alpha5\slf4j-log4j12-2.0.0-alpha5.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-api\2.0.0-alpha5\slf4j-api-2.0.0-alpha5.jar;C:\Users\formation\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\formation\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\formation\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\formation\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\formation\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\formation\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\formation\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\formation\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\formation\.m2\repository\org\apache\rat\apache-rat\0.13\apache-rat-0.13.jar;C:\Users\formation\.m2\repository\org\apache\rat\apache-rat-core\0.13\apache-rat-core-0.13.jar;C:\Users\formation\.m2\repository\org\apache\rat\apache-rat-api\0.13\apache-rat-api-0.13.jar;C:\Users\formation\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\formation\.m2\repository\org\apache\commons\commons-compress\1.11\commons-compress-1.11.jar;C:\Users\formation\.m2\repository\org\apache\rat\apache-rat-tasks\0.13\apache-rat-tasks-0.13.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\formation\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\formation\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.70\bcprov-jdk15on-1.70.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\analytics-core-5.4.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\wsdl4j-1.6.2-fixed.jar;C:\Users\formation\.m2\repository\com\jgoodies\forms\1.2.1\forms-1.2.1.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-core\4.7.3\flex-messaging-core-4.7.3.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-common\4.7.3\flex-messaging-common-4.7.3.jar;C:\Users\formation\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\formation\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\formation\.m2\repository\javax\jms\javax.jms-api\2.0.1\javax.jms-api-2.0.1.jar;C:\Users\formation\.m2\repository\javax\mail\javax.mail-api\1.6.2\javax.mail-api-1.6.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Installation\Java\jre1.8.0_152\bin"/>
+    <property name="sun.java.command" value="C:\Users\formation\AppData\Local\Temp\surefire6832581043398601819\surefirebooter8413460080542267083.jar C:\Users\formation\AppData\Local\Temp\surefire6832581043398601819 2021-12-06T16-31-57_714-jvmRun1 surefire5256210648594392491tmp surefire_01310161060848650225tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\target\test-classes;C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\target\classes;C:\Users\formation\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\formation\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\bin\soapui-5.4.0.jar;C:\Users\formation\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\rsyntaxtextarea-2.5.0.jar;C:\Users\formation\.m2\repository\commons-cli\commons-cli\1.5.0\commons-cli-1.5.0.jar;C:\Users\formation\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\formation\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\formation\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\proxy-vole-20131209.jar;C:\Users\formation\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\formation\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\formation\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\groovy-all-2.4.4.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\reflections-0.9.9-RC1.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-log4j12\2.0.0-alpha5\slf4j-log4j12-2.0.0-alpha5.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-api\2.0.0-alpha5\slf4j-api-2.0.0-alpha5.jar;C:\Users\formation\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\formation\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\formation\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\formation\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\formation\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\formation\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\formation\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\formation\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\formation\.m2\repository\org\apache\rat\apache-rat\0.13\apache-rat-0.13.jar;C:\Users\formation\.m2\repository\org\apache\rat\apache-rat-core\0.13\apache-rat-core-0.13.jar;C:\Users\formation\.m2\repository\org\apache\rat\apache-rat-api\0.13\apache-rat-api-0.13.jar;C:\Users\formation\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\formation\.m2\repository\org\apache\commons\commons-compress\1.11\commons-compress-1.11.jar;C:\Users\formation\.m2\repository\org\apache\rat\apache-rat-tasks\0.13\apache-rat-tasks-0.13.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\formation\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\formation\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.70\bcprov-jdk15on-1.70.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\analytics-core-5.4.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\wsdl4j-1.6.2-fixed.jar;C:\Users\formation\.m2\repository\com\jgoodies\forms\1.2.1\forms-1.2.1.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-core\4.7.3\flex-messaging-core-4.7.3.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-common\4.7.3\flex-messaging-common-4.7.3.jar;C:\Users\formation\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\formation\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\formation\.m2\repository\javax\jms\javax.jms-api\2.0.1\javax.jms-api-2.0.1.jar;C:\Users\formation\.m2\repository\javax\mail\javax.mail-api\1.6.2\javax.mail-api-1.6.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\formation"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Installation\Java\jre1.8.0_152"/>
+    <property name="basedir" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\formation\AppData\Local\Temp\surefire6832581043398601819\surefirebooter8413460080542267083.jar"/>
+    <property name="sun.boot.class.path" value="C:\Installation\Java\jre1.8.0_152\lib\resources.jar;C:\Installation\Java\jre1.8.0_152\lib\rt.jar;C:\Installation\Java\jre1.8.0_152\lib\sunrsasign.jar;C:\Installation\Java\jre1.8.0_152\lib\jsse.jar;C:\Installation\Java\jre1.8.0_152\lib\jce.jar;C:\Installation\Java\jre1.8.0_152\lib\charsets.jar;C:\Installation\Java\jre1.8.0_152\lib\jfr.jar;C:\Installation\Java\jre1.8.0_152\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
+    <property name="user.name" value="formation"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Installation\Java\jre1.8.0_152\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\formation\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\FORMAT~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="user.dir" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Installation\Java\jre1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Installation/Java/jre1.8.0_152/bin/server;C:/Installation/Java/jre1.8.0_152/bin;C:/Installation/Java/jre1.8.0_152/lib/amd64;C:\Program Files (x86)\apache-maven-3.6.3\bin;C:\Program Files (x86)\apache-maven-3.6.3\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Installation\wamp\bin\mysql\mysql5.1.36\bin;C:\INSTAL~1\Groovy\GROOVY~1.15\bin;C:\ProgramData\chocolatey\bin;C:\Users\formation\AppData\Local\Microsoft\WindowsApps;;C:\Installation\SquashTA-Toolbox-1.10.0-RELEASE\eclipse-jee-oxygen-R-win32-x86_64;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.152-b16"/>
+    <property name="java.ext.dirs" value="C:\Installation\Java\jre1.8.0_152\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="JunitTest1" classname="org.eql.MyFirstProject.AppTest" time="4.789">
+    <system-out><![CDATA[16:31:59,124 WARN  [SoapUI] Missing folder [C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\ext] for external libraries
+16:31:59,335 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\formation\soapui-settings.xml]
+16:32:01,531 INFO  [PluginManager] Adding plugin from [C:\Users\formation\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+16:32:01,531 INFO  [PluginManager] Adding plugin from [C:\Users\formation\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+16:32:02,117 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+16:32:02,131 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+16:32:02,134 INFO  [PluginManager] Adding plugin from [C:\Users\formation\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+16:32:02,736 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+16:32:02,740 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+16:32:02,740 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+16:32:02,741 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+16:32:02,752 INFO  [PluginManager] Adding plugin from [C:\Users\formation\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+16:32:02,753 INFO  [PluginManager] Adding plugin from [C:\Users\formation\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+16:32:03,283 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+16:32:03,285 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+16:32:03,310 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+16:32:03,311 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+16:32:03,313 INFO  [PluginManager] 5 plugins loaded in 1783 ms
+16:32:03,313 INFO  [DefaultSoapUICore] All plugins loaded
+16:32:03,497 INFO  [SoapUI] File [D:\Exemple\ExempleWS\test\resources\Exemple-soapui-project.xml] does not exist, trying URL instead
+16:32:03,497 ERROR [SoapUI] An error occurred [unknown protocol: d], see error log for details
+]]></system-out>
+    <system-err><![CDATA[java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+java.net.MalformedURLException: unknown protocol: d
+	at java.net.URL.<init>(Unknown Source)
+	at java.net.URL.<init>(Unknown Source)
+	at java.net.URL.<init>(Unknown Source)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:227)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:194)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:182)
+	at org.eql.MyFirstProject.AppTest.JunitTest1(AppTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="test" classname="org.eql.MyFirstProject.AppTest" time="3.231">
+    <system-out><![CDATA[SoapUI 5.4.0 TestCase Runner
+16:32:04,354 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/SquashTA-1.10.0-RELEASE-workspace/MyFirstProject/src/test/resources/ProjetNOAA.xml]
+16:32:04,356 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [ndfdXML]
+16:32:04,356 INFO  [SoapUITestCaseRunner] Running Project [ndfdXML], runType = SEQUENTIAL
+16:32:04,365 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+16:32:04,370 INFO  [SoapUITestCaseRunner] running step [LatLonListZipCode - Request 1]
+16:32:04,515 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:32:04,515 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:32:05,237 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:32:05,239 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:32:05,274 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status FAILED
+16:32:05,274 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> error: Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+16:32:05,275 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+16:32:05,275 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:32:05,275 INFO  [SoapUITestCaseRunner] Assertion [Lati] has status FAILED
+16:32:05,275 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Missing token [40.7198] in Response
+16:32:05,275 INFO  [SoapUITestCaseRunner] Assertion [Longi] has status FAILED
+16:32:05,276 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Missing token [-73.993] in Response
+16:32:05,276 ERROR [SoapUITestCaseRunner] LatLonListZipCode - Request 1 failed, exporting to [C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\TestSuite_1-TestCase_1-LatLonListZipCode__Request_1-0-FAILED.txt]
+16:32:05,288 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 899ms, status: FAILED
+16:32:05,288 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 2]
+16:32:05,290 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+16:32:05,570 INFO  [log] Chargement des propriétés à partir di fichier testprops.txt
+16:32:05,579 ERROR [SoapUI] An error occurred [C:\Users\formation\Documents\EQL\TPGroovy\testprops.txt (Le chemin d’accès spécifié est introuvable)], see error log for details
+16:32:05,580 ERROR [SoapUITestCaseRunner] Groovy Script failed, exporting to [C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\TestSuite_1-TestCase_2-Groovy_Script-0-FAILED.txt]
+16:32:05,580 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 2], time taken: 288ms, status: FAILED
+16:32:05,581 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+16:32:05,582 INFO  [SoapUITestCaseRunner] running step [Properties]
+16:32:05,587 INFO  [SoapUITestCaseRunner] running step [LatLonListCityNames - Request 1]
+16:32:05,588 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:32:05,590 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:32:05,590 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:32:06,212 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:32:06,213 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:32:06,218 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status FAILED
+16:32:06,218 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> error: Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+16:32:06,218 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+16:32:06,218 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:32:06,218 ERROR [SoapUITestCaseRunner] LatLonListCityNames - Request 1 failed, exporting to [C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\TestSuite_2-TestCase_1-LatLonListCityNames__Request_1-0-FAILED.txt]
+16:32:06,221 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 634ms, status: FAILED
+16:32:06,222 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+16:32:06,222 INFO  [SoapUITestCaseRunner] running step [Properties]
+16:32:06,223 INFO  [SoapUITestCaseRunner] running step [LatLonListCityNames - Request 1]
+16:32:06,224 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+16:32:06,227 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+16:32:06,227 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /xml/SOAP_server/ndfdXMLserver.php HTTP/1.1
+16:32:06,877 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:32:06,878 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+16:32:06,880 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status FAILED
+16:32:06,880 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> error: Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+16:32:06,881 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+16:32:06,881 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+16:32:06,881 ERROR [SoapUITestCaseRunner] LatLonListCityNames - Request 1 failed, exporting to [C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\MyFirstProject\Copy_of_TestSuite_1-TestCase_1-LatLonListCityNames__Request_1-0-FAILED.txt]
+16:32:06,883 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 656ms, status: FAILED
+16:32:06,884 INFO  [SoapUITestCaseRunner] Project [ndfdXML] finished with status [FAILED] in 2525ms
+]]></system-out>
+    <system-err><![CDATA[java.io.IOException: Decompression of response failed
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpMethodSupport.getResponseBody(HttpMethodSupport.java:264)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.support.methods.ExtendedPostMethod.getResponseBody(ExtendedPostMethod.java:116)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.BaseHttpResponse.<init>(BaseHttpResponse.java:85)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.SinglePartHttpResponse.<init>(SinglePartHttpResponse.java:44)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.support.attachments.WsdlSinglePartHttpResponse.<init>(WsdlSinglePartHttpResponse.java:37)
+	at com.eviware.soapui.impl.wsdl.submit.filters.HttpPackagingResponseFilter.wsdlRequest(HttpPackagingResponseFilter.java:70)
+	at com.eviware.soapui.impl.wsdl.submit.filters.HttpPackagingResponseFilter.afterAbstractHttpResponse(HttpPackagingResponseFilter.java:49)
+	at com.eviware.soapui.impl.wsdl.submit.filters.AbstractRequestFilter.afterRequest(AbstractRequestFilter.java:64)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpClientRequestTransport.sendRequest(HttpClientRequestTransport.java:272)
+	at com.eviware.soapui.impl.wsdl.WsdlSubmit.run(WsdlSubmit.java:119)
+	at com.eviware.soapui.impl.wsdl.WsdlSubmit.submitRequest(WsdlSubmit.java:79)
+	at com.eviware.soapui.impl.wsdl.WsdlRequest.submit(WsdlRequest.java:217)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:364)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at org.apache.http.protocol.HttpCoreContext.getAttribute(HttpCoreContext.java:100)
+	at org.apache.http.protocol.HttpCoreContext.getAttribute(HttpCoreContext.java:115)
+	at org.apache.http.client.protocol.HttpClientContext.getRequestConfig(HttpClientContext.java:237)
+	at org.apache.http.client.protocol.ResponseContentEncoding.process(ResponseContentEncoding.java:112)
+	at com.eviware.soapui.impl.wsdl.support.CompressionSupport.decompress(CompressionSupport.java:86)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpMethodSupport.getResponseBody(HttpMethodSupport.java:262)
+	... 22 more
+java.io.FileNotFoundException: C:\Users\formation\Documents\EQL\TPGroovy\testprops.txt (Le chemin d’accès spécifié est introuvable)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at Script1.run(Script1.groovy:3)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+java.io.IOException: Decompression of response failed
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpMethodSupport.getResponseBody(HttpMethodSupport.java:264)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.support.methods.ExtendedPostMethod.getResponseBody(ExtendedPostMethod.java:116)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.BaseHttpResponse.<init>(BaseHttpResponse.java:85)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.SinglePartHttpResponse.<init>(SinglePartHttpResponse.java:44)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.support.attachments.WsdlSinglePartHttpResponse.<init>(WsdlSinglePartHttpResponse.java:37)
+	at com.eviware.soapui.impl.wsdl.submit.filters.HttpPackagingResponseFilter.wsdlRequest(HttpPackagingResponseFilter.java:70)
+	at com.eviware.soapui.impl.wsdl.submit.filters.HttpPackagingResponseFilter.afterAbstractHttpResponse(HttpPackagingResponseFilter.java:49)
+	at com.eviware.soapui.impl.wsdl.submit.filters.AbstractRequestFilter.afterRequest(AbstractRequestFilter.java:64)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpClientRequestTransport.sendRequest(HttpClientRequestTransport.java:272)
+	at com.eviware.soapui.impl.wsdl.WsdlSubmit.run(WsdlSubmit.java:119)
+	at com.eviware.soapui.impl.wsdl.WsdlSubmit.submitRequest(WsdlSubmit.java:79)
+	at com.eviware.soapui.impl.wsdl.WsdlRequest.submit(WsdlRequest.java:217)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:364)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at org.apache.http.protocol.HttpCoreContext.getAttribute(HttpCoreContext.java:100)
+	at org.apache.http.protocol.HttpCoreContext.getAttribute(HttpCoreContext.java:115)
+	at org.apache.http.client.protocol.HttpClientContext.getRequestConfig(HttpClientContext.java:237)
+	at org.apache.http.client.protocol.ResponseContentEncoding.process(ResponseContentEncoding.java:112)
+	at com.eviware.soapui.impl.wsdl.support.CompressionSupport.decompress(CompressionSupport.java:86)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpMethodSupport.getResponseBody(HttpMethodSupport.java:262)
+	... 22 more
+java.io.IOException: Decompression of response failed
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpMethodSupport.getResponseBody(HttpMethodSupport.java:264)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.support.methods.ExtendedPostMethod.getResponseBody(ExtendedPostMethod.java:116)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.BaseHttpResponse.<init>(BaseHttpResponse.java:85)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.SinglePartHttpResponse.<init>(SinglePartHttpResponse.java:44)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.support.attachments.WsdlSinglePartHttpResponse.<init>(WsdlSinglePartHttpResponse.java:37)
+	at com.eviware.soapui.impl.wsdl.submit.filters.HttpPackagingResponseFilter.wsdlRequest(HttpPackagingResponseFilter.java:70)
+	at com.eviware.soapui.impl.wsdl.submit.filters.HttpPackagingResponseFilter.afterAbstractHttpResponse(HttpPackagingResponseFilter.java:49)
+	at com.eviware.soapui.impl.wsdl.submit.filters.AbstractRequestFilter.afterRequest(AbstractRequestFilter.java:64)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpClientRequestTransport.sendRequest(HttpClientRequestTransport.java:272)
+	at com.eviware.soapui.impl.wsdl.WsdlSubmit.run(WsdlSubmit.java:119)
+	at com.eviware.soapui.impl.wsdl.WsdlSubmit.submitRequest(WsdlSubmit.java:79)
+	at com.eviware.soapui.impl.wsdl.WsdlRequest.submit(WsdlRequest.java:217)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:364)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at org.apache.http.protocol.HttpCoreContext.getAttribute(HttpCoreContext.java:100)
+	at org.apache.http.protocol.HttpCoreContext.getAttribute(HttpCoreContext.java:115)
+	at org.apache.http.client.protocol.HttpClientContext.getRequestConfig(HttpClientContext.java:237)
+	at org.apache.http.client.protocol.ResponseContentEncoding.process(ResponseContentEncoding.java:112)
+	at com.eviware.soapui.impl.wsdl.support.CompressionSupport.decompress(CompressionSupport.java:86)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpMethodSupport.getResponseBody(HttpMethodSupport.java:262)
+	... 22 more
+java.lang.Exception: SOAP Response in [LatLonListZipCode - Request 1] failed;
+[line -1: error: Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+, line 1: Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]
+Status: FAILED
+Time Taken: 899
+Size: 396
+Timestamp: Mon Dec 06 16:32:04 CET 2021
+TestStep: LatLonListZipCode - Request 1
+
+----------------- Messages ------------------------------
+[SOAP Response] error: Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[SOAP Response] Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[Lati] Missing token [40.7198] in Response
+[Longi] Missing token [-73.993] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : "https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListZipCode"
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.13 (Java/1.8.0_152)
+Host : graphical.weather.gov
+Accept-Encoding : gzip,deflate
+Content-Length : 604
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ndf="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ndf:LatLonListZipCode soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <zipCodeList xsi:type="dwml:zipCodeListType" xmlns:dwml="https://graphical.weather.gov/xml/DWMLgen/schema/DWML.xsd">10025</zipCodeList>
+      </ndf:LatLonListZipCode>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: X-SOAP-Server : NuSOAP/0.9.5 (1.123)
+Strict-Transport-Security : max-age=31536000 ; includeSubDomains ; preload
+Server : Apache
+Content-Encoding : gzip
+Connection : keep-alive
+Vary : Accept-Encoding
+#status# : HTTP/1.1 200 OK
+Content-Length : 396
+X-NIDS-ServerID : www5.mo
+Date : Mon, 06 Dec 2021 15:32:05 GMT
+Content-Type : text/xml; charset=ISO-8859-1
+
+
+&amp#31;&amp#8;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;S]O0&amp#20;ý+=I&amp#11;N³1&amp#22;{0aDo­Ðµ­cû÷^@ØÑÍ·öö{Ïiév[&amp#27;Vh.ÅÄök[L$rNìÇxå&amp#12;·#Ç³§a&amp#16;¯îùòÅË¥bVWi)±ÙålbgÆ(&amp#31;cdlM4&amp#2;	-B²HqµÀ-&amp#28;Û&amp#22;	í·&amp#23;]Bm´;êVÓU%*û5øÚu=ü¶âú¢=&amp#7;;\hCDÂNºýg°&amp#3;»î%ÝÐ&amp#31;&amp#17;&amp#19;I&amp#17;qmÞ¹IÊVRhö-&amp#4;FCHZ&amp#16;ñä¨dÄd¬@©Ü`&amp#0;â×E2KMs,è&amp#7;ÖQµ&amp#1;Õ&amp#28;.odVÆy}³S&amp#16;	ØäkS@ovØËÍø(÷&amp#30;QR!üf1í¥f\hù;èÀþ¦pÎÖ&amp#19;&amp#26;¿Ö¥Ñòa$!dÖ5 H&Äì¼ÜÂ&Éz`ÞwqU&amp#27;&amp#23;¼ÑðÊ&amp#25;ôÑhÔ¯&amp#0;ø&amp#24;Q*ÏªM¢&amp#8;&amp#3;üç&amp#11;ó&amp#7;ü·ð&amp#11;²"&amp#23;&amp#16;®&amp#3;&amp#0;&amp#0;
+Lati in [LatLonListZipCode - Request 1] failed;
+[Missing token [40.7198] in Response]
+Status: FAILED
+Time Taken: 899
+Size: 396
+Timestamp: Mon Dec 06 16:32:04 CET 2021
+TestStep: LatLonListZipCode - Request 1
+
+----------------- Messages ------------------------------
+[SOAP Response] error: Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[SOAP Response] Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[Lati] Missing token [40.7198] in Response
+[Longi] Missing token [-73.993] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : "https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListZipCode"
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.13 (Java/1.8.0_152)
+Host : graphical.weather.gov
+Accept-Encoding : gzip,deflate
+Content-Length : 604
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ndf="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ndf:LatLonListZipCode soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <zipCodeList xsi:type="dwml:zipCodeListType" xmlns:dwml="https://graphical.weather.gov/xml/DWMLgen/schema/DWML.xsd">10025</zipCodeList>
+      </ndf:LatLonListZipCode>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: X-SOAP-Server : NuSOAP/0.9.5 (1.123)
+Strict-Transport-Security : max-age=31536000 ; includeSubDomains ; preload
+Server : Apache
+Content-Encoding : gzip
+Connection : keep-alive
+Vary : Accept-Encoding
+#status# : HTTP/1.1 200 OK
+Content-Length : 396
+X-NIDS-ServerID : www5.mo
+Date : Mon, 06 Dec 2021 15:32:05 GMT
+Content-Type : text/xml; charset=ISO-8859-1
+
+
+&amp#31;&amp#8;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;S]O0&amp#20;ý+=I&amp#11;N³1&amp#22;{0aDo­Ðµ­cû÷^@ØÑÍ·öö{Ïiév[&amp#27;Vh.ÅÄök[L$rNìÇxå&amp#12;·#Ç³§a&amp#16;¯îùòÅË¥bVWi)±ÙålbgÆ(&amp#31;cdlM4&amp#2;	-B²HqµÀ-&amp#28;Û&amp#22;	í·&amp#23;]Bm´;êVÓU%*û5øÚu=ü¶âú¢=&amp#7;;\hCDÂNºýg°&amp#3;»î%ÝÐ&amp#31;&amp#17;&amp#19;I&amp#17;qmÞ¹IÊVRhö-&amp#4;FCHZ&amp#16;ñä¨dÄd¬@©Ü`&amp#0;â×E2KMs,è&amp#7;ÖQµ&amp#1;Õ&amp#28;.odVÆy}³S&amp#16;	ØäkS@ovØËÍø(÷&amp#30;QR!üf1í¥f\hù;èÀþ¦pÎÖ&amp#19;&amp#26;¿Ö¥Ñòa$!dÖ5 H&Äì¼ÜÂ&Éz`ÞwqU&amp#27;&amp#23;¼ÑðÊ&amp#25;ôÑhÔ¯&amp#0;ø&amp#24;Q*ÏªM¢&amp#8;&amp#3;üç&amp#11;ó&amp#7;ü·ð&amp#11;²"&amp#23;&amp#16;®&amp#3;&amp#0;&amp#0;
+Longi in [LatLonListZipCode - Request 1] failed;
+[Missing token [-73.993] in Response]
+Status: FAILED
+Time Taken: 899
+Size: 396
+Timestamp: Mon Dec 06 16:32:04 CET 2021
+TestStep: LatLonListZipCode - Request 1
+
+----------------- Messages ------------------------------
+[SOAP Response] error: Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[SOAP Response] Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[Lati] Missing token [40.7198] in Response
+[Longi] Missing token [-73.993] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : "https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListZipCode"
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.13 (Java/1.8.0_152)
+Host : graphical.weather.gov
+Accept-Encoding : gzip,deflate
+Content-Length : 604
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ndf="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ndf:LatLonListZipCode soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <zipCodeList xsi:type="dwml:zipCodeListType" xmlns:dwml="https://graphical.weather.gov/xml/DWMLgen/schema/DWML.xsd">10025</zipCodeList>
+      </ndf:LatLonListZipCode>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: X-SOAP-Server : NuSOAP/0.9.5 (1.123)
+Strict-Transport-Security : max-age=31536000 ; includeSubDomains ; preload
+Server : Apache
+Content-Encoding : gzip
+Connection : keep-alive
+Vary : Accept-Encoding
+#status# : HTTP/1.1 200 OK
+Content-Length : 396
+X-NIDS-ServerID : www5.mo
+Date : Mon, 06 Dec 2021 15:32:05 GMT
+Content-Type : text/xml; charset=ISO-8859-1
+
+
+&amp#31;&amp#8;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;S]O0&amp#20;ý+=I&amp#11;N³1&amp#22;{0aDo­Ðµ­cû÷^@ØÑÍ·öö{Ïiév[&amp#27;Vh.ÅÄök[L$rNìÇxå&amp#12;·#Ç³§a&amp#16;¯îùòÅË¥bVWi)±ÙålbgÆ(&amp#31;cdlM4&amp#2;	-B²HqµÀ-&amp#28;Û&amp#22;	í·&amp#23;]Bm´;êVÓU%*û5øÚu=ü¶âú¢=&amp#7;;\hCDÂNºýg°&amp#3;»î%ÝÐ&amp#31;&amp#17;&amp#19;I&amp#17;qmÞ¹IÊVRhö-&amp#4;FCHZ&amp#16;ñä¨dÄd¬@©Ü`&amp#0;â×E2KMs,è&amp#7;ÖQµ&amp#1;Õ&amp#28;.odVÆy}³S&amp#16;	ØäkS@ovØËÍø(÷&amp#30;QR!üf1í¥f\hù;èÀþ¦pÎÖ&amp#19;&amp#26;¿Ö¥Ñòa$!dÖ5 H&Äì¼ÜÂ&Éz`ÞwqU&amp#27;&amp#23;¼ÑðÊ&amp#25;ôÑhÔ¯&amp#0;ø&amp#24;Q*ÏªM¢&amp#8;&amp#3;üç&amp#11;ó&amp#7;ü·ð&amp#11;²"&amp#23;&amp#16;®&amp#3;&amp#0;&amp#0;
+SOAP Response in [LatLonListCityNames - Request 1] failed;
+[line -1: error: Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+, line 1: Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]
+Status: FAILED
+Time Taken: 630
+Size: 2025
+Timestamp: Mon Dec 06 16:32:05 CET 2021
+TestStep: LatLonListCityNames - Request 1
+
+----------------- Messages ------------------------------
+[SOAP Response] error: Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[SOAP Response] Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+----------------- Properties ------------------------------
+Endpoint: https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : "https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListCityNames"
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.13 (Java/1.8.0_152)
+Host : graphical.weather.gov
+Accept-Encoding : gzip,deflate
+Content-Length : 607
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ndf="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ndf:LatLonListCityNames soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <displayLevel xsi:type="dwml:displayLevelType" xmlns:dwml="https://graphical.weather.gov/xml/DWMLgen/schema/DWML.xsd">2</displayLevel>
+      </ndf:LatLonListCityNames>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: X-SOAP-Server : NuSOAP/0.9.5 (1.123)
+Strict-Transport-Security : max-age=31536000 ; includeSubDomains ; preload
+Server : Apache
+Content-Encoding : gzip
+Connection : keep-alive
+Vary : Accept-Encoding
+#status# : HTTP/1.1 200 OK
+Content-Length : 2025
+X-NIDS-ServerID : www5.mo
+Date : Mon, 06 Dec 2021 15:32:06 GMT
+Content-Type : text/xml; charset=ISO-8859-1
+
+
+&amp#31;&amp#8;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#3;WËr&amp#26;É&amp#18;Ýß¯¨ÐÂ«VÓï,Ëla&amp#1;RFï®&amp#4;%è ©bú!¬þø{2&amp#11;4¶oÄØ³"OWVVæÉÕÍùÇoÛR¼¨ª.þpâ»ÞPza^}8&amp#25;ÎîN³,ÎOý&amp#23;ç³»þýéõäñìZ¿¨Òìx{rÜ2k^KõádÝ4»³^¯^¬ÕVÖ.¨Ü¹¦ZõÈè&amp#29;Ý{'&amp#2;kº>;&amp#6;ú­öì·­ßêåÛ®ý~ïîCv&amp#14;<Ïïý9&amp#30;Í8ÐßÎÅ¯O&amp#11;]7R/ÔOÙþMaßÑui¯&amp#23;çºöÏF²&amp#25;&amp#25;=*êfP4¯&amp#19;¹UõTÕ;£ku8
+^ö&amp#26;Ç¬*¹[&amp#23;&amp#11;Yº{%µªÜyéÁ±w5&amp#31;VJ÷öõ²ìéåó&amp#18;É»&amp#4;pnðö »¶&amp#17;¨ø¬yÝ¡) ê¬n*dwrñ®lÞÿÐùwrgê÷h¿5ÄÇw«æýÈm¹ÿ&amp#7;·¿[ðî¯Ö4ïE­õú®&amp#25;¿·í­#Çý(J&amp#27;æo'&amp#23;Ê:ÌB6ä[Ìß#Ñv¡Rìö·úË·Ñ£0wÃÀ9Í#7Dä¹Y&amp#12;¸i,°â¥&amp#0;±&amp#4;"&amp#12;Ý&amp#28;væâyê&äºQ(ÂÈÍÂ&amp#20;&amp#1;²ÀS?&amp#17;a_@ßMÈb§¹§"]?O±1Ã!a8K!¢QøÃ®<¡,âÄ9õ&amp#3;Lh)¦%SÄg&amp#19;H)&amp#0;&amp#1;ß8Ã&amp#24;aw&amp#23;Å\ç¼É/§&amp#26;O»¼ôP¤&amp#31;&amp#16;Be¡&amp#8;Ò	H&amp#4;d°(p£Ì&amp#22;ecBYåð =Ê*¥&amp#24;&amp#17;Ää&amp#1;Ä.ó&amp#25;ynÒQ&amp#28;;q¼lQa@vL[&RN6·¥&amp#28;Ø÷<F&amp#27;&amp#28;9&amp#1;ðì&&amp#31;Õ&amp#16; *&amp#16;!&amp#8;(e!6ú¬Sp&amp#17;ÈN¨¾&amp#16;M27õ=*/&amp#0;J}J&amp#21;kíMÒJn&amp#27;LÕ%öX&amp#28;&amp#24;Ò
+å&amp#17;¼&amp#0;ÛËÈ+²&amp#11;!ögÜ@ä&amp#19;f&amp#28;ËÍ#7&amp#20;&amp#17;&amp#8;8mÛ%¬D\x&amp#16;&amp#30;÷P&amp#0;f!§®#vâQ&amp#31;&amp#2;ê-ÖBÛ&amp#20;"&amp#21;MaFÜ&amp#6;?´ÔQr784/)×KµÂ#¯&amp#11;Ð~,$nN>Di2Ùà*d&amp#16;z¤Á4c/P&amp#21;¦-F,A&amp#2;`&amp#20;Y§nnÇÄçó½(±TVs&ÛÀeÇÌ¨Ô&amp#0;iÅÜ¯À"Ï%ábRç1æñ#Áj·ôÌ&amp#22;&amp#30;pË­&amp#16;"=&amp#6;¤8[Z¢Vx&amp#4;¢È&amp#14;V.BßÃã@&amp#21;2EP,k+`u&amp#18;©¡?¬@i´)µçÆ&amp#4;&amp#18;{&amp#16;:KÒ@ì&amp#20;:âH&amp#26;iH) yj'='Â¢ø0ö´¨¼&amp#3;fza&amp#11;¹>¯µi&amp#27;&amp#21;\($Ç2Ý0ç	Ëì&amp#7;<&amp#7;¬!&amp#31;òâ¼ÐN}äòrîg@¤ÐÁG1ä{&amp#8;·R Ð &amp#18;DB\&amp#11;¾J°&amp#20;ÃD&amp#4;/?FË#B9&amp#29;&amp#28;#] L^N&amp#8;#&amp#17;ñ¾È"/&amp#18;±ÏÃéãhL~Ønãi&amp#28;&amp#8;D&amp#14;)a0z"	,Q1_Æ	¦öE9]a~H&amp#23;Oî&amp#11;&amp#8;ÜO&amp#0;¨i&amp#4;r&amp#11;&amp#16;ÞÇ#A&amp#26;Ðk ÷ã{_ÃKüøðVêZÖÞíÎø®&amp#27;&amp#21;ø&amp#26;(µ3¹î&amp#30;ðÅ²Îí¬&amp#23;uÑHñIeí<üy|@k+Ï¢,3&amp#27;tµ¬JU7F;óÇnj¤6&amp#27;å<öíi&amp#26;åL&amp#6;ÝX.àð¹ßõÛU$Sµ¤&amp#16;gÐï.j&amp#11;s-·NÔÝ´º©í&amp#1;@_Û­túÿí¾&amp#24;­ê'S&amp#25;§?í&amp#30;Ô7Ym¤&amp#4;>UªÖâ\µÔ+wÈRê¥øÒê&amp#5;½méÉ&amp#29;Þ®Òù4êîe¹&amp#21;J.Ö&amp#30;ö>Ô9¼êî©
+é&amp#12;GÝõ&amp#11;x²Y&amp#12;'Ý'S5b._5£|¯j&amp#3;&amp#24;êeLv&amp#6;4g¦mÖ¯®T-Æ¦@îÎ&amp#16;	åJYêÁä¨xR,Ù4mq8íökw)Á§v¥Q&amp#31;Çm°É&amp#18;Mx¶®ÔÚ!%BÓvûlª¥3¾î®eÝðcØc&amp#4;+´Yl&amp#20;Ã¹©&amp#22;hª1ºPî&amp#20;¸&amp#27;&amp#15;»{ªë¦­@&amp#17;Ð&amp#16;¿{cdP>µ&amp#7;æL®
+-÷ÖlËFÌ&amp#26;1U¡xFPÍß4²<&amp#16;9t_äbSSÔY70e»}&amp#2;«PÛ½Ù²&amp#18;eûüLx¶£O½çBK7ò¥BÔîFáCw+ÁëN%?Fð¯I­&amp#19;¤¾&amp#22;÷P<i&amp#12;Å¯Îä&amp#17;§AÏD&amp#7;1õ6NÆXÜ&amp#22;t&_ñ&amp#16;&amp#31;RL&amp#4;ÀwZJ'jÏìÁ&amp#28;Hüq¸¡Ð¬éÁTªX­O!1)XA&amp#24;&amp#27;8\u&amp#3;ÌQ¡&amp#8;çî¦»¯4&amp#18;°î!R1RFê©­VdÏ&amp#16;qKÆ§ÒTø$·ãtä
+v&amp#31;êX"?g&amp#6;]&amp#22;ª&amp#2;3°¦rW,­æ&amp#18;&amp#25;6fÏNcµÅG$æ&amp#21;
+Uû¢æ&amp#8;´ÏBÓ&amp#24;÷·h[Y&amp#26;¶
+p¬È&amp#28;µOOP
+3©E_¯õcnéwÚ6%ªu&amp#30;&amp#31;ºË¶®VT&amp#16;Ð]ùºÝ!Ý9T&amp#15;×&amp#6;DÎI°ÊÔ5ì!FY&amp#16;`ÞÕë©×dN×&amp#24;	
+>&amp#0;^Aê%£?røl~EóÌî&amp#22;Å+Å&amp#11;ÕªÉFóM¹ùá¢9Ì&amp#15;&amp#30;Q&amp#17;_@5Ý	ú«ÅÜÜO»&amp#2;UÝ&amp#12;»&amp#27;£AsÙ=*Ö­"ãV®ñ¨`&amp#19;R¦ßþRnþmw©¨°Ì[Õà"ÄÍC`¼&amp#6;53µ&amp#16;&amp#29;¬Ï-äñù&amp#15;´®¹?ºBãz k&&amp#29;[|Sÿ|-ó]Ý£ÿ1Î{?üCº8ïýâ¯&amp#25;<~ú/×û¿¿Â&amp#23;ÿ&amp#3;úài1I&amp#15;&amp#0;&amp#0;
+SOAP Response in [LatLonListCityNames - Request 1] failed;
+[line -1: error: Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+, line 1: Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]
+Status: FAILED
+Time Taken: 656
+Size: 2025
+Timestamp: Mon Dec 06 16:32:06 CET 2021
+TestStep: LatLonListCityNames - Request 1
+
+----------------- Messages ------------------------------
+[SOAP Response] error: Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[SOAP Response] Illegal XML character: 0x1f
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML character: 0x1f
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:169)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at com.eviware.soapui.impl.wsdl.support.soap.AbstractSoapVersion.validateSoapEnvelope(AbstractSoapVersion.java:50)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlValidator.assertResponse(WsdlValidator.java:509)
+	at com.eviware.soapui.impl.wsdl.teststeps.assertions.soap.SoapResponseAssertion.internalAssertResponse(SoapResponseAssertion.java:59)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlMessageAssertion.assertResponse(WsdlMessageAssertion.java:150)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.assertResponse(WsdlTestRequest.java:175)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequest.setResponse(WsdlTestRequest.java:152)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:380)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+----------------- Properties ------------------------------
+Endpoint: https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : "https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListCityNames"
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.13 (Java/1.8.0_152)
+Host : graphical.weather.gov
+Accept-Encoding : gzip,deflate
+Content-Length : 607
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ndf="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ndf:LatLonListCityNames soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <displayLevel xsi:type="dwml:displayLevelType" xmlns:dwml="https://graphical.weather.gov/xml/DWMLgen/schema/DWML.xsd">2</displayLevel>
+      </ndf:LatLonListCityNames>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: X-SOAP-Server : NuSOAP/0.9.5 (1.123)
+Strict-Transport-Security : max-age=31536000 ; includeSubDomains ; preload
+Server : Apache
+Content-Encoding : gzip
+Connection : keep-alive
+Vary : Accept-Encoding
+#status# : HTTP/1.1 200 OK
+Content-Length : 2025
+X-NIDS-ServerID : www5.mo
+Date : Mon, 06 Dec 2021 15:32:07 GMT
+Content-Type : text/xml; charset=ISO-8859-1
+
+
+&amp#31;&amp#8;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#3;WËr&amp#26;É&amp#18;Ýß¯¨ÐÂ«VÓï,Ëla&amp#1;RFï®&amp#4;%è ©bú!¬þø{2&amp#11;4¶oÄØ³"OWVVæÉÕÍùÇoÛR¼¨ª.þpâ»ÞPza^}8&amp#25;ÎîN³,ÎOý&amp#23;ç³»þýéõäñìZ¿¨Òìx{rÜ2k^KõádÝ4»³^¯^¬ÕVÖ.¨Ü¹¦ZõÈè&amp#29;Ý{'&amp#2;kº>;&amp#6;ú­öì·­ßêåÛ®ý~ïîCv&amp#14;<Ïïý9&amp#30;Í8ÐßÎÅ¯O&amp#11;]7R/ÔOÙþMaßÑui¯&amp#23;çºöÏF²&amp#25;&amp#25;=*êfP4¯&amp#19;¹UõTÕ;£ku8
+^ö&amp#26;Ç¬*¹[&amp#23;&amp#11;Yº{%µªÜyéÁ±w5&amp#31;VJ÷öõ²ìéåó&amp#18;É»&amp#4;pnðö »¶&amp#17;¨ø¬yÝ¡) ê¬n*dwrñ®lÞÿÐùwrgê÷h¿5ÄÇw«æýÈm¹ÿ&amp#7;·¿[ðî¯Ö4ïE­õú®&amp#25;¿·í­#Çý(J&amp#27;æo'&amp#23;Ê:ÌB6ä[Ìß#Ñv¡Rìö·úË·Ñ£0wÃÀ9Í#7Dä¹Y&amp#12;¸i,°â¥&amp#0;±&amp#4;"&amp#12;Ý&amp#28;væâyê&äºQ(ÂÈÍÂ&amp#20;&amp#1;²ÀS?&amp#17;a_@ßMÈb§¹§"]?O±1Ã!a8K!¢QøÃ®<¡,âÄ9õ&amp#3;Lh)¦%SÄg&amp#19;H)&amp#0;&amp#1;ß8Ã&amp#24;aw&amp#23;Å\ç¼É/§&amp#26;O»¼ôP¤&amp#31;&amp#16;Be¡&amp#8;Ò	H&amp#4;d°(p£Ì&amp#22;ecBYåð =Ê*¥&amp#24;&amp#17;Ää&amp#1;Ä.ó&amp#25;ynÒQ&amp#28;;q¼lQa@vL[&RN6·¥&amp#28;Ø÷<F&amp#27;&amp#28;9&amp#1;ðì&&amp#31;Õ&amp#16; *&amp#16;!&amp#8;(e!6ú¬Sp&amp#17;ÈN¨¾&amp#16;M27õ=*/&amp#0;J}J&amp#21;kíMÒJn&amp#27;LÕ%öX&amp#28;&amp#24;Ò
+å&amp#17;¼&amp#0;ÛËÈ+²&amp#11;!ögÜ@ä&amp#19;f&amp#28;ËÍ#7&amp#20;&amp#17;&amp#8;8mÛ%¬D\x&amp#16;&amp#30;÷P&amp#0;f!§®#vâQ&amp#31;&amp#2;ê-ÖBÛ&amp#20;"&amp#21;MaFÜ&amp#6;?´ÔQr784/)×KµÂ#¯&amp#11;Ð~,$nN>Di2Ùà*d&amp#16;z¤Á4c/P&amp#21;¦-F,A&amp#2;`&amp#20;Y§nnÇÄçó½(±TVs&ÛÀeÇÌ¨Ô&amp#0;iÅÜ¯À"Ï%ábRç1æñ#Áj·ôÌ&amp#22;&amp#30;pË­&amp#16;"=&amp#6;¤8[Z¢Vx&amp#4;¢È&amp#14;V.BßÃã@&amp#21;2EP,k+`u&amp#18;©¡?¬@i´)µçÆ&amp#4;&amp#18;{&amp#16;:KÒ@ì&amp#20;:âH&amp#26;iH) yj'='Â¢ø0ö´¨¼&amp#3;fza&amp#11;¹>¯µi&amp#27;&amp#21;\($Ç2Ý0ç	Ëì&amp#7;<&amp#7;¬!&amp#31;òâ¼ÐN}äòrîg@¤ÐÁG1ä{&amp#8;·R Ð &amp#18;DB\&amp#11;¾J°&amp#20;ÃD&amp#4;/?FË#B9&amp#29;&amp#28;#] L^N&amp#8;#&amp#17;ñ¾È"/&amp#18;±ÏÃéãhL~Ønãi&amp#28;&amp#8;D&amp#14;)a0z"	,Q1_Æ	¦öE9]a~H&amp#23;Oî&amp#11;&amp#8;ÜO&amp#0;¨i&amp#4;r&amp#11;&amp#16;ÞÇ#A&amp#26;Ðk ÷ã{_ÃKüøðVêZÖÞíÎø®&amp#27;&amp#21;ø&amp#26;(µ3¹î&amp#30;ðÅ²Îí¬&amp#23;uÑHñIeí<üy|@k+Ï¢,3&amp#27;tµ¬JU7F;óÇnj¤6&amp#27;å<öíi&amp#26;åL&amp#6;ÝX.àð¹ßõÛU$Sµ¤&amp#16;gÐï.j&amp#11;s-·NÔÝ´º©í&amp#1;@_Û­túÿí¾&amp#24;­ê'S&amp#25;§?í&amp#30;Ô7Ym¤&amp#4;>UªÖâ\µÔ+wÈRê¥øÒê&amp#5;½méÉ&amp#29;Þ®Òù4êîe¹&amp#21;J.Ö&amp#30;ö>Ô9¼êî©
+é&amp#12;GÝõ&amp#11;x²Y&amp#12;'Ý'S5b._5£|¯j&amp#3;&amp#24;êeLv&amp#6;4g¦mÖ¯®T-Æ¦@îÎ&amp#16;	åJYêÁä¨xR,Ù4mq8íökw)Á§v¥Q&amp#31;Çm°É&amp#18;Mx¶®ÔÚ!%BÓvûlª¥3¾î®eÝðcØc&amp#4;+´Yl&amp#20;Ã¹©&amp#22;hª1ºPî&amp#20;¸&amp#27;&amp#15;»{ªë¦­@&amp#17;Ð&amp#16;¿{cdP>µ&amp#7;æL®
+-÷ÖlËFÌ&amp#26;1U¡xFPÍß4²<&amp#16;9t_äbSSÔY70e»}&amp#2;«PÛ½Ù²&amp#18;eûüLx¶£O½çBK7ò¥BÔîFáCw+ÁëN%?Fð¯I­&amp#19;¤¾&amp#22;÷P<i&amp#12;Å¯Îä&amp#17;§AÏD&amp#7;1õ6NÆXÜ&amp#22;t&_ñ&amp#16;&amp#31;RL&amp#4;ÀwZJ'jÏìÁ&amp#28;Hüq¸¡Ð¬éÁTªX­O!1)XA&amp#24;&amp#27;8\u&amp#3;ÌQ¡&amp#8;çî¦»¯4&amp#18;°î!R1RFê©­VdÏ&amp#16;qKÆ§ÒTø$·ãtä
+v&amp#31;êX"?g&amp#6;]&amp#22;ª&amp#2;3°¦rW,­æ&amp#18;&amp#25;6fÏNcµÅG$æ&amp#21;
+Uû¢æ&amp#8;´ÏBÓ&amp#24;÷·h[Y&amp#26;¶
+p¬È&amp#28;µOOP
+3©E_¯õcnéwÚ6%ªu&amp#30;&amp#31;ºË¶®VT&amp#16;Ð]ùºÝ!Ý9T&amp#15;×&amp#6;DÎI°ÊÔ5ì!FY&amp#16;`ÞÕë©×dN×&amp#24;	
+>&amp#0;^Aê%£?røl~EóÌî&amp#22;Å+Å&amp#11;ÕªÉFóM¹ùá¢9Ì&amp#15;&amp#30;Q&amp#17;_@5Ý	ú«ÅÜÜO»&amp#2;UÝ&amp#12;»&amp#27;£AsÙ=*Ö­"ãV®ñ¨`&amp#19;R¦ßþRnþmw©¨°Ì[Õà"ÄÍC`¼&amp#6;53µ&amp#16;&amp#29;¬Ï-äñù&amp#15;´®¹?ºBãz k&&amp#29;[|Sÿ|-ó]Ý£ÿ1Î{?üCº8ïýâ¯&amp#25;<~ú/×û¿¿Â&amp#23;ÿ&amp#3;úài1I&amp#15;&amp#0;&amp#0;
+TestCase [TestCase 2] failed without assertions
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:519)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:435)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at org.eql.MyFirstProject.AppTest.test(AppTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+</testsuite>
